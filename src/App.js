@@ -23,8 +23,6 @@ function App() {
   
     return { loading, meteorites };
   };
-  
-  const rows = [];
 
   useFetch(url);
 
