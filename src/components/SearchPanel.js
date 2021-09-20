@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { Grid, Button, TextField} from '@material-ui/core'
+import React from 'react';
+import { Button, TextField} from '@material-ui/core'
 function SearchPanel(props) {
     const onNameChange = event => props.setName(event.target.value);
 
@@ -19,7 +19,7 @@ function SearchPanel(props) {
                 marginLeft: 'auto',
                 marginRight: 'auto',
                 marginTop: '20px',
-                width: '700px',
+                width: '60%',
             }}
         >
             <TextField
